@@ -1,0 +1,19 @@
+﻿<Window x:Class="wpf_net48_behavior_example1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_net48_behavior_example1"
+        xmlns:bhv="http://schemas.microsoft.com/xaml/behaviors"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <bhv:Interaction.Behaviors>
+        <local:ShowMessageBoxBehavior Messenger="{Binding Messenger}" />
+    </bhv:Interaction.Behaviors>
+
+    <StackPanel>
+        <TextBox Text="{Binding Text}"/>
+        <Button Content="Show MessageBox" Command="{Binding ShowMessageBoxCommand}"/>
+    </StackPanel>
+</Window>
