@@ -23,8 +23,6 @@ namespace wpf_net48_behavior_example1
         public MainWindow()
         {
             InitializeComponent();
-
-            this.DataContext = new MainWindowViewModel();
         }
     }
 }

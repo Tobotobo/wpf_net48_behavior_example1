@@ -8,9 +8,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
 
-    <bhv:Interaction.Behaviors>
-        <local:ShowMessageBoxBehavior Messenger="{Binding Messenger}" />
-    </bhv:Interaction.Behaviors>
+    <!--<bhv:Interaction.Behaviors>
+        <local:ShowMessageBoxBehavior />
+    </bhv:Interaction.Behaviors>-->
 
     <StackPanel>
         <TextBox Text="{Binding Text}"/>

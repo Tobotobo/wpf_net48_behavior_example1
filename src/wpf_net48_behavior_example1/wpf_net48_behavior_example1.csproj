@@ -87,8 +87,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="MainWindowViewModel.cs" />
+    <Compile Include="RecipientBehaviorBase.cs" />
     <Compile Include="ShowMessageBoxBehavior.cs" />
     <Compile Include="ShowMessageBoxMessage.cs" />
+    <Compile Include="StyleBehaviorCollection.cs" />
     <Compile Include="ViewModelBase.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
