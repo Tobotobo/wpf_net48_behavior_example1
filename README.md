@@ -16,7 +16,7 @@ subgraph v[View]
 end
 
 subgraph vm[ViewModel]
-    m[Messanger]
+    m[Messenger]
     
 end
 
